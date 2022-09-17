@@ -1,0 +1,112 @@
+    body {
+          margin: 0px;
+          padding: 0%;
+    }
+    h1{
+        font-size: 4em;
+        font-family: 'Lucida Sans';
+    }
+    #blog-head {
+                background-color: orange;
+                padding: 1em;
+                color: #000;
+    }
+
+
+    #navbar {
+        text-align: right;
+        background-color: #000;
+        border: none;
+}
+#navbar li a{
+   text-decoration: none;
+   font-family: 'Arial', cursive;
+   color:#000;
+   background-color: orange;
+   padding: 12px;
+   border-radius: 4px;
+}
+
+
+
+#navbar li a:hover{
+    text-decoration: none;
+    font-family: 'Arial', cursive;
+    color:#fff;
+    background-color: orange;
+    padding: 10px;
+
+ }
+
+
+    /*For the blog index page only */
+    #posts {
+            padding: 2em;
+    }
+
+    a:active, a:link {
+        color: orange;
+        text-decoration: none;
+    }
+    ul:not(#recent-posts) {
+        padding: 2em;
+    }
+    li:not(#recent-posts-title) {
+        list-style: none;
+        padding: 1em;
+        display: inline;
+        font-weight: bold;
+    }
+
+    
+
+
+    footer {
+            height: 40px;
+            text-align: center;
+            padding: 5px;
+            background-color: orange;
+   
+    }
+    #section-3 {
+                 background-color: #000;
+                 width: 100%;
+                 height: 50%;
+                 padding-bottom: 15%;
+    }
+
+
+    #recent-posts-title {
+                          display: inline;
+                          float: left;
+                          padding: 1em;
+                          color: white;
+                          font-family: arial;
+    }
+    #recent-post-links {
+                        color: #fff;
+                        text-decoration: none;
+    }
+
+    i {
+                                color: #000;
+                                padding: 6px;
+                                height: 12px;
+    }
+
+    img{
+        width: 65vh;
+        box-shadow: 4px 4px;
+    }
+    #readmore{
+        padding: 15px;
+        background-color: orange;
+        color:#fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .container{
+        padding:40px;
+    }
