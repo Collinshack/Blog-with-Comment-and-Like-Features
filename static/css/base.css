@@ -110,3 +110,44 @@
     .container{
         padding:40px;
     }
+
+
+    #like{
+        border: 0;
+        cursor: pointer;
+        background-color: none;
+    }
+
+    .form-control{
+        width: 20%;
+        height: 20px;
+        padding: 15px;
+        margin-bottom: 5px;
+        border: 3px solid #000;
+        border-radius: 5px;
+    }
+
+    #form-textarea{
+        width: 20%;
+        padding: 15px;
+        border: 2px solid #000;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+    #post-a-comment{
+        color: red;
+    }
+
+    #submit_btn{
+        padding: 15px;
+        background-color: red;
+        color:#fff;
+        font-size: 1.5em;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    #contact_page{
+        margin: 20px;
+    }

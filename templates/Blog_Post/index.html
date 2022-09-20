@@ -10,13 +10,12 @@
 <img src="{{ post.featured_image.url}}">
 <br />
 <h1><a href="{% url 'post_detail' post.slug %}">{{post.title}}</a></h1>
-<p><i class="fa-solid fa-user"></i> {{post.author}}</p>
-<small><i class="fa-regular fa-calendar-days"></i>{{post.date_published}}</small>
+<small><i class="fa-solid fa-user"></i> {{post.author}}</small> <small><i class="fa-regular fa-calendar-days"></i>{{post.date_published}}</small>
+
 <h3>{{post.body|truncatewords:80}}</h3>
 
 <a href="{% url 'post_detail' post.slug %}"> <button id='readmore'><b>Read More <i class="fa-solid fa-arrow-right-long"></b></i> </button></a>
 </div>
-<a href="{% url 'post_detail' post.slug %}">Awesome</a>
 {% endfor %}
 <!----------------------------
 ... Recent Posts..............

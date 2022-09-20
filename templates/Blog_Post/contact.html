@@ -1,6 +1,30 @@
 {% extends 'Blog_Post/base.html' %}
 
 {% block content %}
+<div id="contact_page" class="container">
 
-<h1 style="color:black; display:block;">About Page</h1>
+  <h1 style="color:red; display:block;">Contact Page</h1>
+  <h2>Message me via:</h2>
+  <h3>awusacollins@gmail.com or bizwithcollins@gmail.com</h3>
+  <h3>+234(0)8112168467</h3>
+
+
+  <h1 style="color: red; display:block;">Send Message</h1>
+<form method="POST">
+  {% csrf_token %}
+  <label>Name</label> <br /> 
+  <input type="text" class="form-control"> <br /> <br />
+
+  <label>Email</label> <br /> 
+  <input type="email" class="form-control"> <br /> <br />
+
+  <label>Message</label> <br />
+  <textarea id="form-textarea" cols="20" rows="6"></textarea> <br />
+
+  <input type="submit" value="Send Message" id="submit_btn"> <br />
+
+
+
+
+</div>
 {% endblock %} 
